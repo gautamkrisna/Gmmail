@@ -19,6 +19,8 @@ public class Sandbox {
         objSendMail.sendMailMethod("10.106.129.33",   //10.106.129.33/owa
         "gautam@csblr.com",   //exchange mail box user.
         "freebsd",   // Password
-        "gautam@csblr.com");  // Can be changed to other receipients.
+        "gautam@csblr.com",
+                "Test Subject",
+        "Body of the email ");  // Can be changed to other receipients.
     }
 }
